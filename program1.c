@@ -13,7 +13,7 @@ void main(int argc, char arg[]) {
         exit (1);
     } else if (pid == 0) {
         printf("parent process\n");
-        excelp("ls","ls",NULL);    // <-- typo here
+        execlp("ls","ls",NULL);    // <-- typo here
         exit (0);
     } else {
         printf("child process\n");
@@ -23,3 +23,4 @@ void main(int argc, char arg[]) {
         exit (0);
     }
 }
+
