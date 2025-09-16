@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
        exit(-1); 
        } 
      } 
- 
-   /* Last thing that main() should do */ 
+
    pthread_exit(NULL); 
+
 } 
